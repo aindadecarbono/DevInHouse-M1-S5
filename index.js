@@ -1,5 +1,12 @@
-import { saudacao } from './saudacao.js'
-import saudacaoEspecial from './saudacao-especial.js'
-
-console.log(saudacao())
-console.log(saudacaoEspecial('Bruno'))
+class Produto {
+  nome
+  preço
+  emEstoque
+  quantidade
+  constructor(nome, preço, emEstoque, quantidade) {
+    this.nome = nome
+    this.preço = preço
+    this.emEstoque = emEstoque
+    this.quantidade = quantidade
+  }
+}
